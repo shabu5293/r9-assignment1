@@ -45,7 +45,7 @@ nav li a{
     max-width: 1440px;
     min-height: 652px;
     margin-top: 131px;
-    background-image: url(/assets/Hero-bg.png);
+    background-image: url("/assets/Hero-bg.png");
     background-size: cover;
     background-position: center;
     align-items: center;
@@ -256,7 +256,7 @@ frame{
 
 /* <!-- --------SUPPORT ITEMS STYLE START---------- --> */
 .support{
-    background-image: url('/assets/handshake.jpg');
+    background-image: url("/assets/handshake.jpg");
     max-width: 1140px;
     height: 313px;
     background-position: center;
