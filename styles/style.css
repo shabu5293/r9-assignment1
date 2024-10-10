@@ -45,7 +45,7 @@ nav li a{
     max-width: 1440px;
     min-height: 652px;
     margin-top: 131px;
-    background-image: url(./assets/Hero-bg.png);
+    background-image: url(/assets/Hero-bg.png);
     background-size: cover;
     background-position: center;
     align-items: center;
@@ -254,7 +254,7 @@ frame{
 }
 /* <!-- --------INSPIRATION & TARGET SECTION STYLE END---------- --> */
 
-/* <!-- --------SUPPORT ITEMS START---------- --> */
+/* <!-- --------SUPPORT ITEMS STYLE START---------- --> */
 .support{
     background-image: url('/assets/handshake.jpg');
     max-width: 1140px;
@@ -329,4 +329,51 @@ frame{
     background: rgb(255, 255, 255);
 }
 
-/* <!-- --------SUPPORT ITEMS END---------- --> */
+/* <!-- --------SUPPORT ITEMS STYLE END---------- --> */
+
+/* <!-- --------FOOTER ITEMS STYLE START---------- --> */
+footer {
+    max-width: 1440px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    padding: 32px 0px;
+    margin-top: 80px;
+}
+
+.footer {
+    display: flex;
+    gap: 570px;
+    padding-top: 5px;
+    justify-content: space-between;
+
+}
+
+.footer-content {
+    margin-left: 150px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    margin-right: 150px;
+}
+
+.social-icons ul {
+    display: flex;
+    gap: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icons ul li {
+    list-style: none;
+}
+
+/* <!-- --------FOOTER ITEMS STYLE END---------- --> */
