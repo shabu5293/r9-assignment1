@@ -5,6 +5,9 @@
     padding: 0;
     font-family: "Inter", sans-serif;
 }
+
+
+
 /* <!-- --------NAV ITEMS STYLE START---------- --> */
 
 nav{
@@ -42,12 +45,11 @@ nav li a{
     max-width: 1440px;
     min-height: 652px;
     margin-top: 131px;
-    background-image: url("/assets/Hero-bg.png");
+    background-image: url(./assets/Hero-bg.png);
     background-size: cover;
-    background-position: ce;
+    background-position: center;
     align-items: center;
     position: relative;
-    padding: auto;
     text-align: center;
 }
 
@@ -251,3 +253,80 @@ frame{
     text-decoration-line: underline;
 }
 /* <!-- --------INSPIRATION & TARGET SECTION STYLE END---------- --> */
+
+/* <!-- --------SUPPORT ITEMS START---------- --> */
+.support{
+    background-image: url('/assets/handshake.jpg');
+    max-width: 1140px;
+    height: 313px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    margin-top: 49px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+    text-align: center;
+    padding: 64px 48px 64px 48px;
+
+}
+.support-frame{
+    max-width: 1044px;
+    height: 185px;
+}
+.support-title{
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 64px;
+}
+.support-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.feedback {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 548px;
+    height: 57px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.feedback input {
+    padding: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    border-radius: 8px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    width: 548px;
+    margin-right: 16px;
+}
+
+.feedback button {
+    padding: 17px 20px;
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    background: rgb(255, 255, 255);
+    color: #000000;
+    cursor: pointer;
+}
+.suggestion{
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+}
+
+/* <!-- --------SUPPORT ITEMS END---------- --> */
