@@ -43,7 +43,7 @@ nav li a{
     margin-top: 131px;
     background-image: url("/assets/Hero-bg.png");
     background-size: cover;
-    background-position: center;
+    background-position: ce;
     align-items: center;
     position: relative;
     padding: auto;
@@ -90,3 +90,83 @@ nav li a{
     cursor: pointer;
 }
 /* <!-- --------BANNER ITEMS STYLE END---------- --> */
+
+/* <!-- --------WHY WEB DEVELOPMENT STYLES START---------- --> */
+.frame2{
+
+    max-width: 1140px;
+    max-height: 1393;
+    padding: 80px 97px 80px 97px;
+    background: #0D132105;
+    margin-top: 74px;
+}
+
+.title2{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 24px 0px;
+
+}
+.description2{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 24px 0px;
+}
+.item1,.item2,.item3{
+    display: flex;
+    padding: 48px;
+    border-radius: 16px;
+}
+.item1, .item3{
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+.item2{
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+.content{
+    position: static;
+    width: 477px;
+    height: 219px;
+    
+}
+
+.item-head{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    padding-bottom: 16px;
+}
+.item-description{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+.item-button{
+    margin-top: 32px;
+    width: 171px;
+    height: 47px;
+    position: absolute;
+    text-align: center;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    color: #0D1321;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+
+}
+
+.item-button:hover{
+    opacity: 1;
+    cursor: pointer;
+    color: #ffffff;
+    background: linear-gradient(90.00deg, rgb(0, 0, 0),rgba(255, 255, 255, 0) 100%);
+}
+/* <!-- --------WHY WEB DEVELOPMENT STYLES END---------- --> */
